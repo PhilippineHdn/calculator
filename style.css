@@ -33,6 +33,11 @@ body {
     position: relative;
     top: 20px;
     border-radius: 3px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 30px;
+    padding: 5px;
 }
 
 #firstline, #secondline, #thirdline, #fourthline {
