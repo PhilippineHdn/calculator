@@ -25,19 +25,33 @@ body {
     border-radius: 3px;
 }
 
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 45px;
+}
+
+#reset {
+    position: relative;
+    top: 20px;
+}
+
 #screen {
     background-color:#8D8DAA;
-    height: 55px;
-    width: 385px;
-    margin: auto;
+    height: 40px;
+    width: 286px;
     position: relative;
     top: 20px;
     border-radius: 3px;
     display: flex;
     justify-content: right;
-    align-items: flex-end;
+    align-items: center;
     font-size: 30px;
     padding: 5px;
+    margin-left: 4px;
+    border: 2px solid var(--secondcolor) ;
 }
 
 #firstline, #secondline, #thirdline, #fourthline {
